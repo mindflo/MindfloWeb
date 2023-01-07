@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     try{
-        $email = $_REQUEST['EMAIL']; 
+        $email = $_REQUEST['EMAIL']; //data
 
         if(!empty($email)) {
 

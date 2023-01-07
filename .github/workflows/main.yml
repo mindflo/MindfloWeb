@@ -37,7 +37,7 @@ jobs:
           # ftp password
           password: P@ssword@1234
           # Server port to connect to (read your web hosts docs)
-          port: 2222
+          port: 22
           # protocol to deploy with - ftp, ftps, or ftps-legacy
           #protocol: # optional
           # Folder to upload from, must end with trailing slash /

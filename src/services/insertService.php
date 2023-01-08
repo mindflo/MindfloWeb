@@ -5,10 +5,10 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // DB Credentials and connection ->
-$hostname = "sumanbaul9048581.ipagemysql.com";
+$hostname = "";
 $database = "mindflo";
-$username = "mindflo2023";
-$password = "GaxPVAk9Drywd36";
+$username = "";
+$password = "";
 
 $conn = new mysqli($hostname,$database, $username, $password);
 

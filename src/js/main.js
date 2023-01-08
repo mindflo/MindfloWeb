@@ -162,7 +162,7 @@ $("#mc-form").submit(function (e) {
   // Disabled form elements will not be serialized.
   $inputs.prop("disabled", true);
 
-  collectUserData(serializedData);
+  //collectUserData(serializedData);
   var siteUrl = location.href + "sendmail.php";
   $(".loader").show();
   // Fire off the request to /form.php
